@@ -3,8 +3,8 @@ import { ClassInfo, ScheduleGrid, DocumentItem, HeroData, ContactData, RatingDat
 
 const INITIAL_HERO: HeroData = {
   badge: ">>> Khơi nguồn đam mê toán học <<<",
-  titleLine1: "Học Toán Thông Minh",
-  titleLine2: "Toán Thầy Hà - Bắc Ninh",
+  titleLine1: "Vua Toánh",
+  titleLine2: "Thầy Hà - Bắc Ninh",
   description: "Các nhóm tiếp tục tuyển sinh. Liên hệ: 0988.948.882"
 };
 
