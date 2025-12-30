@@ -19,12 +19,13 @@ const OnlineTestModal: React.FC<OnlineTestModalProps> = ({ isOpen, onClose }) =>
     if (selectedSubject && selectedLevel) {
       let targetUrl = 'https://taodeonlinemontoanthpt.vercel.app/';
 
-      // Điều hướng cụ thể cho tổ hợp Toán - THPT
       if (selectedSubject === "Toán" && selectedLevel === "THPT") {
         targetUrl = 'https://taodeonlinemontoanthpt.vercel.app/';
       }
 
-      window.open(targetUrl, '_blank');
+      // CÁCH 1: Chuyển hướng ngay tại tab cũ (An toàn nhất, không bị chặn)
+      window.location.href = targetUrl;   
+
       onClose();
     }
   };
